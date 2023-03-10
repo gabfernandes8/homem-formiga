@@ -23,18 +23,10 @@ body{
     align-items: center;
 }
 
-.action{
-    place-self: end;
-    width: 150px;
-    height: 100px;
-    color: #fff;
-    font-size: 25px;
+.logo__text{
+    font-size: 30px;
     font-weight: 1000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    gap: 8px;
+    gap: 32px;
 }
 
 main{
