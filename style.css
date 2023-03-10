@@ -14,19 +14,27 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    font-family: 'Shantell Sans', cursive;
+    font-family: 'Open Sans', sans-serif;
     position: absolute;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    gap: 24px;
 }
 
-.logo__text{
-    font-size: 32px;
-    font-weight: 100;
+.action{
+    place-self: end;
+    width: 150px;
+    height: 100px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap: 8px;
 }
 
 main{
@@ -44,12 +52,9 @@ main{
     width: 500px;
 }
 
-footer{
+.video{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-}
-
-.videos{
-    align-items: ;
+    gap: 64px;
 }
