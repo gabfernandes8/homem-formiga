@@ -1,0 +1,55 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    padding: 70px 70px 24px 70px;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Shantell Sans', cursive;
+    position: absolute;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo__text{
+    font-size: 32px;
+    font-weight: 100;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+.description__title{
+    font-size: 64px;
+}
+
+.description__text{
+    font-size: 20px;
+    width: 500px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.videos{
+    align-items: ;
+}
