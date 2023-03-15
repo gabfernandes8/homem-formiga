@@ -59,7 +59,7 @@ main{
     grid-area: socials;
     padding-top: 150px;
     display: grid;
-    height: 500px;
+    height: 390px;
     width: 50px;
     place-items: end;
     align-items: center;
