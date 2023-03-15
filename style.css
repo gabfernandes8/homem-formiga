@@ -26,7 +26,7 @@ body{
 }
 
 .logo__text{
-    font-size: 30px;
+    font-size: 23px;
     font-weight: 1000;
     position: relative;
     gap: 64px;
@@ -34,15 +34,16 @@ body{
 
 main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
-    place-items: end;
-    width: 1fr;
+    grid-template-columns: 1fr 100px;
+    grid-template-areas:
+        "info socials"
+        "info socials";
+    width: 1820px
 }
 
 .info-container{
+    grid-area: info;
     display: grid;
-    background-color: blue;
 }
 
 .description__title{
@@ -50,19 +51,25 @@ main{
 }
 
 .description__text{
-    font-size: 20px;
-    width: 500px;
+    font-size: 25px;
+    width: 580px;
 }
 
 .socials-container{
-    background-color: blueviolet;
-    height: 1fr;
+    grid-area: socials;
+    padding-top: 150px;
+    display: grid;
+    height: 500px;
     width: 50px;
+    place-items: end;
+    align-items: center;
+}
+
+footer{
 }
 
 .video{
     display: flex;
-    justify-content: center;
     align-items: flex-end;
-    gap: 64px;
+    gap: 50px;
 }
