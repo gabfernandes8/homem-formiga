@@ -15,7 +15,6 @@ body{
     background-size: cover;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
-    position: absolute;
 }
 
 .logo{
@@ -38,7 +37,6 @@ main{
     grid-template-areas:
         "info socials"
         "info socials";
-    width: 1820px
 }
 
 .info-container{
@@ -57,12 +55,14 @@ main{
 
 .socials-container{
     grid-area: socials;
-    padding-top: 150px;
     display: grid;
-    height: 390px;
-    width: 50px;
-    place-items: end;
-    align-items: center;
+    place-content: center;
+    gap: 32px;
+}
+
+.social-link{
+    display: grid;
+    place-content: center;
 }
 
 footer{
