@@ -36,6 +36,13 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr;
+    place-items: end;
+    width: 1fr;
+}
+
+.info-container{
+    display: grid;
+    background-color: blue;
 }
 
 .description__title{
@@ -47,8 +54,10 @@ main{
     width: 500px;
 }
 
-.container-direito{
-    text-align: right;
+.socials-container{
+    background-color: blueviolet;
+    height: 1fr;
+    width: 50px;
 }
 
 .video{
